@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <!-- Nav-bar section -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="title">Amani Ahmed</a> 
+      <ul class="navbar-menu">
+         <li class="nav-items">
+             <a href="#about-me">About</a>
+         </li>
+         <li class="nav-items">
+             <a href="#projects">Project</a>
+         </li>
+         <li class="nav-items">
+             <a href="#contact-me">Contact</a>
+         </li>
+     </ul>
+     <div class="hamburger">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+     </div>
+        </nav>
+    </header>
+
+<!-- About me section -->
+    <section class="hero" id="about-me">
+        <div class="cont-left">
+            <h1 class="text logo" >Hi, I'm Amani!</h1>
+            <p class="text about-me-text">
+                A  <span>Front-end developer </span>. I love creating beautiful  and scalable front-end products.</p>
+            <button class="hero-btn hover" ><a href="" class="links">Download Cv</a></button>
+        </div>
+        <div class="cont-right">
+            <img src="./img/sitting women svg.svg" alt="sitting women" class="main-img">
+        </div>
+    </section>
+
+    <!-- Cards-section -->
+    <h2 class="text project-header" >MY WORK</h2>
+    <section class="projects-section" id="projects">
+
+      
+      
+
+            <div class="project-card">
+              <div class="content">
+                  <img src="./img/movieApp.png" alt="" class="project-img">
+                   <p class="information">
+                       A movie App that let's you search movie, displays them, gives you an overview about said movie and lastly links you to Youtube to watch the trailer.
+                   </p>
+                   <button class="btns hover"><a href="https://github.com/Amani-dot/Movie-App" class="links">View Code</a></button>
+                   <button class="btns hover"><a href="https://amani-dot.github.io/Movie-App/" class="links">Live Demo</a></button>
+                   <div class="wrapper">
+                    <span class="inline">HTML</span>
+                    <span class="inline">JS</span>
+                    <span class="inline">API</span>
+                    <span class="inline">CSS</span>
+                </div>
+              </div>
+            </div>  <!-- Movie  APP -->
+
+            <div class="project-card">
+                <div class="content">
+                    <img src="./img/before.png" alt=""  class="project-img">
+                     <p class="information">
+                         A simple google clone that let's you search and displays information from the google search engine.
+                     </p>
+                     <button class="btns hover"><a href="https://github.com/Amani-dot/google-clone" class="links" class="text" >View Code</a></button>
+                     <button class="btns hover"><a href="https://amani-dot.github.io/google-clone/" class="links" class="text" >Live Demo</a></button>
+                     <div class="wrapper">
+                      <span class="inline">HTML</span>
+                      <span class="inline">JS</span>
+                      <span class="inline">CSS</span>
+                  </div>
+                </div>
+              </div >   <!-- google -->
+    
+            <div class="project-card">
+              <div class="content">
+                  <img src="./img/bullseye.png" alt=""  class="project-img">
+                   <p class="information">
+                       A Bullseye-Game in which  the bow on the left is pulled and the arrows are thrown at the concentric circles and a message is displayed after each attempt.
+                   </p>
+                   <button class="btns hover"><a href="https://github.com/Amani-dot/Bullseye-Game" class="links" class="text" >View Code</a></button>
+                   <button class="btns hover"><a href="https://amani-dot.github.io/Bullseye-Game/" class="links" class="text" >Live Demo</a></button>
+                   <div class="wrapper">
+                    <span class="inline">HTML</span>
+                    <span class="inline">JS</span>
+                    <span class="inline">API</span>
+                </div>
+              </div>
+            </div>   <!-- BullsEye -->
+
+            <div class="project-card">
+                <div class="content">
+                    <img src="./img/weatherApp.png" alt=""  class="project-img">
+                     <p class="information">
+                         A weather App using an API to get information about windspeed and other weather information about any city you search and displays it.
+                     </p>
+                     <button class="btns hover"><a href="https://github.com/Amani-dot/Weather-App" class="links">View Code</a></button>
+                     <button class="btns hover"><a href="https://amani-dot.github.io/Weather-App/" class="links">Live Demo</a></button>
+                     <div class="wrapper">
+                         <span class="inline">HTML</span>
+                         <span class="inline">JS</span>
+                         <span class="inline">API</span>
+                         <span class="inline">CSS</span
+                     </div>
+                </div>
+              </div>    <!--   A weather App -->
+         
+    </section>
+ 
+    <!-- Email-section -->
+       <section class="contact">
+           <h3 class="header" id="contact-me" >Get In touch</h3>
+             <form action="https://formsubmit.co/el/seroku" method="POST"  class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" class="input-text" required>
+                <input type="email" name="email"placeholder="Your Email Address" class="input-text" required>
+                <textarea  cols="20" rows="12" name="message" class="input-text" placeholder="Message"></textarea>
+                <button type="submit" class="submit hover">Send</button>
+           </form>
+       </section>
+
+
+
+<!-- Footer Section -->
+<div class="header-social">Socials</div>
+       <footer>
+      
+         <div class="socials">
+             <div class="social">
+                 <a href="https://twitter.com/Amani_Off/">
+                     <img src="./img/twitter.svg" alt="twitter icon">
+                 </a>
+             </div>
+             <div class="social">
+                 <a href="https://www.linkedin.com/in/amani-ahmed/">
+                     <img src="./img/linkedin.svg" alt="linkedin icon">
+                 </a>
+             </div>
+             <div class="social">
+                 <a href="https://github.com/Amani-dot">
+                     <img src="./img/github.svg" alt="github icon">
+                 </a>
+             </div>
+         </div>
+       </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
